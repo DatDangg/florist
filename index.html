@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <title>Florist</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hello+Santtiny&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body>
+    <div class="content">
+        <div class="container">
+            <div class="header row">
+                <div class="logo col-lg-2 col-md-5 col-6">
+                    <a href="./index.html">
+                        <img src="./img/image.png" alt="logo">
+                    </a>
+                </div>
+                <div class="menu col-lg-10 d-none d-lg-flex">
+                    <ul class="menu-list">
+                        <a href="#">
+                            <li class="menu-item active">Home</li>
+                        </a>
+                        <a href="#">
+                            <li class="menu-item">About</li>
+                        </a>
+                        <a href="#">
+                            <li class="menu-item">Services</li>
+                        </a>
+                        <a href="#">
+                            <li class="menu-item">Shop</li>
+                        </a>
+                        <a href="#">
+                            <li class="menu-item">Pages
+                                <ul class="pages-list">
+                                    <li>Cart</li>
+                                    <li>Checkout</li>
+                                    <li>Wishlist</li>
+                                    <li>Portfolio</li>
+                                    <li>Shop Details</li>
+                                    <li>Blog Details</li>
+                                </ul>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="menu-item">Blog</li>
+                        </a>
+                        <a href="#">
+                            <li class="menu-item">Contact</li>
+                        </a>
+                    </ul>
+                    <div class="menu-find">
+                        <a href="#" class="menu-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                    <div class="menu-fav">
+                        <a href="#" class="menu-icon">
+                            <i class="fa-regular fa-heart"></i>
+                        </a>
+                        (05)
+                    </div>
+                    <div class="menu-cart">
+                        <a href="#" class="menu-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                        (01) 
+                        <div class="menu-cart__price">$65.0</div>
+                    </div>
+                </div>
+                <div class="menu-bar col-md-7 d-lg-none text-end col-6">
+                    <i class="fa-solid fa-bars" id="bar"></i>
+                </div>
+            </div>
+        </div>
+        <div class="band">
+            <div class="container">
+                <div class="row">
+                    <div class="band-content col-lg-4 col-md-4">
+                        <div class="band-name">Fresh flower & gift shop</div>
+                        <div class="band-title">Making beautiful flowers a part of your life</div>
+                        <button class="contact-btn">Shop now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="benefit row">
+                <div class="benefit-item col-lg-3 col-md-6">
+                    <div class="benefit-image">
+                        <img src="./img/benefit-1.png.webp" alt="benefit-1">
+                    </div>
+                    <div class="benefit-item-text">
+                        <div class="benefit-item__title">100% Freshness</div>
+                        <div class="benefit-item__content">Most people are unaware of the less common flower</div>
+                    </div>
+                </div>
+                <div class="benefit-item col-lg-3 col-md-6">
+                    <div class="benefit-image">
+                        <img src="./img/benefit-2.png.webp" alt="benefit-2">
+                    </div>
+                    <div class="benefit-item-text">
+                        <div class="benefit-item__title">Made by artist</div>
+                        <div class="benefit-item__content">Most people are unaware of the less common flower</div>
+                    </div>
+                </div>
+                <div class="benefit-item col-lg-3 col-md-6">
+                    <div class="benefit-image">
+                        <img src="./img/benefit-3.png.webp" alt="benefit-3">
+                    </div>
+                    <div class="benefit-item-text">
+                        <div class="benefit-item__title">Own courier</div>
+                        <div class="benefit-item__content">Most people are unaware of the less common flower</div>
+                    </div>
+                </div>
+                <div class="benefit-item col-lg-3 col-md-6">
+                    <div class="benefit-image">
+                        <img src="./img/benefit-4.png.webp" alt="benefit-4">
+                    </div>
+                    <div class="benefit-item-text">
+                        <div class="benefit-item__title">100% Freshness</div>
+                        <div class="benefit-item__content">Most people are unaware of the less common flower</div>
+                    </div>
+                </div>
+            </div>
+            <div class="category row">
+                <div class="category-item col-lg-3 col-md-6">
+                    <div class="bg" style="background-image: url(./img/categories-1.jpg.webp); height: 100%;">
+                        <div class="category-title">
+                            <div class="category-title__name">Fresh Flower</div>
+                            <div class="category-title__count">( 25 items )</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="category-item col-lg-3 col-md-6">
+                    <div class="bg" style="background-image: url(./img/categories-2.jpg.webp); height: 100%;">
+                        <div class="category-title">
+                            <div class="category-title__name">Succulent plants</div>
+                            <div class="category-title__count">( 162 items )</div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="category-item col-lg-3 col-md-6">
+                    <div class="bg" style="background-image: url(./img/categories-3.jpg.webp); height: 100%;">
+                        <div class="category-title">
+                            <div class="category-title__name">Cactus plants</div>
+                            <div class="category-title__count">( 58 items )</div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="category-item col-lg-3 col-md-6">
+                    <div class="bg" style="background-image: url(./img/categories-4.jpg.webp); height: 100%;">
+                        <div class="category-title">
+                            <div class="category-title__name">Funiture tree</div>
+                            <div class="category-title__count">( 25 items )</div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="aboutUs row">
+                <div class="aboutUs-title col-xl-4 col-sm-12">
+                    <div class="title__name">About us</div>
+                    <div class="title__desc">We provide all kinds of fresh flower services</div>
+                </div>
+                <div class="aboutUs-title col-xl-7 col-sm-12 offset-xl-1">
+                    <p>For Heather Henson, of Boreal Blooms in Cold Lake, Alberta, Canada, growing flowers that can be dried and incorporated into late fall and winter floral arrangements has been a game-changer. During her growing season, this farmer-florist relies on a vivid palette of annuals, perennials and ornamental grasses to supply her studio.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="contactUs row">
+                <div class="contactUs-video col-lg-6 ">
+                    <img src="./img/about-video.jpg" alt="about">
+                </div>
+                <div class="contactUs-text col-lg-6 ">
+                    <div class="title__name">Slow Flowers’ Floral Insights</div>
+                    <div class="title__desc">Dried flowers are having a renaissance</div>
+                    <p>This awareness has been stimulated by sustainable sourcing practices and the desire on the part of North American flower growers to “extend the season” beyond the last frost.</p>
+                    <button class="contact-btn">Contact Us</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="product">
+                <div class="title__name">Our flower</div>
+                <div class="title__desc">New Arrivals</div>
+                <ul>
+                    <li class="active">All</li>
+                    <li>Bouquet</li>
+                    <li>Flower box</li>
+                    <li>Flower shelf</li>
+                    <li>Basket of flower</li>
+                    <li>Gift combos</li>
+                </ul>
+                <div class="row">
+                    <div class="product-item col-lg-2-4">
+                        <img src="./img/product-1.jpg" alt="">
+                        <div class="product-item__noti">New</div>
+                        <div class="product-item__name">
+                            <a href="#">
+                                Fly Me To The Moon
+                            </a>
+                        </div>
+                        <div class="product-item__price">$27.50</div>
+                        <a href="#" class="product-item__addCart">
+                            Add to Cart
+                        </a>
+                        <div class="product-item__action">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-regular fa-clipboard"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-item col-lg-2-4">
+                        <img src="./img/product-2.jpg" alt="">
+                        <div class="product-item__name">
+                            <a href="#">
+                                Fly Me To The Moon
+                            </a>
+                        </div>
+                        <div class="product-item__price">$27.50</div>
+                        <a href="#" class="product-item__addCart">
+                            Add to Cart
+                        </a>
+                        <div class="product-item__action">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-regular fa-clipboard"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-item col-lg-2-4">
+                        <img src="./img/product-3.jpg" alt="">
+                        <div class="product-item__noti">sale</div>
+                        <div class="product-item__name">
+                            <a href="#">
+                                Fly Me To The Moon
+                            </a>
+                        </div>
+                        <div class="product-item__price">$27.50</div>
+                        <a href="#" class="product-item__addCart">
+                            Add to Cart
+                        </a>
+                        <div class="product-item__action">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-regular fa-clipboard"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-item col-lg-2-4">
+                        <img src="./img/product-4.jpg" alt="">
+                        <div class="product-item__name">
+                            <a href="#">
+                                Fly Me To The Moon
+                            </a>
+                        </div>
+                        <div class="product-item__price">$27.50</div>
+                        <a href="#" class="product-item__addCart">
+                            Add to Cart
+                        </a>
+                        <div class="product-item__action">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-regular fa-clipboard"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-item col-lg-2-4">
+                        <img src="./img/product-5.jpg" alt="">
+                        <div class="product-item__name">
+                            <a href="#">
+                                Fly Me To The Moon
+                            </a>
+                        </div>
+                        <div class="product-item__price">$27.50</div>
+                        <a href="#" class="product-item__addCart">
+                            Add to Cart
+                        </a>
+                        <div class="product-item__action">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-regular fa-clipboard"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-item col-lg-2-4">
+                        <img src="./img/product-6.jpg" alt="">
+                        <div class="product-item__name">
+                            <a href="#">
+                                Fly Me To The Moon
+                            </a>
+                        </div>
+                        <div class="product-item__price">$27.50</div>
+                        <a href="#" class="product-item__addCart">
+                            Add to Cart
+                        </a>
+                        <div class="product-item__action">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-regular fa-clipboard"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-item col-lg-2-4">
+                        <img src="./img//product-7.jpg" alt="">
+                        <div class="product-item__noti">Out of stock</div>
+                        <div class="product-item__name">
+                            <a href="#">
+                                Fly Me To The Moon
+                            </a>
+                        </div>
+                        <div class="product-item__price">$27.50</div>
+                        <a href="#" class="product-item__addCart">
+                            Add to Cart
+                        </a>
+                        <div class="product-item__action">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-regular fa-clipboard"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-item col-lg-2-4">
+                        <img src="./img/product-8.jpg" alt="">
+                        <div class="product-item__noti">New</div>
+                        <div class="product-item__name">
+                            <a href="#">
+                                Fly Me To The Moon
+                            </a>
+                        </div>
+                        <div class="product-item__price">$27.50</div>
+                        <a href="#" class="product-item__addCart">
+                            Add to Cart
+                        </a>
+                        <div class="product-item__action">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-regular fa-clipboard"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-item col-lg-2-4">
+                        <img src="./img/product-9.jpg" alt="">
+                        <div class="product-item__name">
+                            <a href="#">
+                                Fly Me To The Moon
+                            </a>
+                        </div>
+                        <div class="product-item__price">$27.50</div>
+                        <a href="#" class="product-item__addCart">
+                            Add to Cart
+                        </a>
+                        <div class="product-item__action">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-regular fa-clipboard"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="product-item col-lg-2-4">
+                        <img src="./img/product-10.jpg" alt="">
+                        <div class="product-item__noti">New</div>
+                        <div class="product-item__name">
+                            <a href="#">
+                                Fly Me To The Moon
+                            </a>
+                        </div>
+                        <div class="product-item__price">1$27.50</div>
+                        <a href="#" class="product-item__addCart">
+                            Add to Cart
+                        </a>
+                        <div class="product-item__action">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <i class="fa-regular fa-clipboard"></i>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-all">
+                    <a href="#">View all products</a>
+                </div>
+            </div>
+        </div>
+        <div class="callTo">
+            <div class="container">
+                <div class="row">
+                    <div class="callTo-content col-xxl-4 col-lg-4 col-md-5">
+                        <div class="callTo-name">Custom flower</div>
+                        <div class="callTo-title">Let our flowers make your party more perfect.</div>
+                        <button class="contact-btn">Order now</button>
+                        <button class="contact-btn">Contact us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="tricks">
+                <div class="tricks-header">
+                    <div class="tricks-title">
+                        <div class="title__name">Latest posts</div>
+                        <div class="title__desc">Florist tricks</div>
+                    </div>
+                    <button class="tricks-btn">View all posts</button>
+                </div>
+                <div class="row">
+                    <div class="trick-item col-lg-4 col-md-6">
+                        <img src="./img/blog-1.jpg" alt="blog-1">
+                        <div class="trick-text">
+                            <div class="trick-note">
+                                <span>Trend news</span>
+                            </div>
+                            <div class="trick-title">
+                                <a href="#">8 Romantic Gifts to Celebrate Your Wedding Anniversary</a>
+                            </div>
+                            <div class="trick-desc">
+                                Flowers have a language all their own. In Victorian times, receiving a…
+                            </div>
+                            <div class="trick-date">
+                                May 22, 2020
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trick-item col-lg-4 col-md-6">
+                        <img src="./img/blog-2.jpg" alt="blog-2">
+                        <div class="trick-text">
+                            <div class="trick-note">
+                                <span>Tips & Idea</span>
+                            </div>
+                            <div class="trick-title">
+                                <a href="#">Red Rose - Flower of love of Greek Mythology</a>
+                            </div>
+                            <div class="trick-desc">
+                                Flowers have a language all their own. In Victorian times, receiving a…
+                            </div>
+                            <div class="trick-date">
+                                May 22, 2020
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trick-item col-lg-4 col-md-6">
+                        <img src="./img/blog-3.jpg" alt="blog-3">
+                        <div class="trick-text">
+                            <div class="trick-note">
+                                <span>DIY & Crafts</span>
+                            </div>
+                            <div class="trick-title">
+                                <a href="#">Beautiful Mandalas Made From Flowers by Kathy Klein</a>
+                            </div>
+                            <div class="trick-desc">
+                                Flowers have a language all their own. In Victorian times, receiving a…
+                            </div>
+                            <div class="trick-date">
+                                May 22, 2020
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="quote">
+            <div class="quote-content">
+                <div class="row">
+                <div class="col-xxl-12 offset-xxl-0 col-xl-8 offset-xl-2 col-sm-10 offset-sm-1 ">
+                    <img src="./img/quote.png.webp" alt="">
+                    <div class="quote-text">
+                        “I just wanted to say thank you for making such gorgeous arrangements for our
+                        birthday celebration. I couldn’t get over how perfect they were for the
+                        party. You did a fantastic job, and I appreciate it very much”
+                    </div>
+                    <div class="quote-author">Alejandro Houston</div>
+                    <div class="quote-author-job">Businessman</div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="ins row">
+                <div class="ins-img col-lg-2-4">
+                    <img src="./img/insta-1.jpg" alt="insta-1">
+                    <div class="ins-img__hover">
+                        <i class="fa-brands fa-instagram"></i>
+                        <p>Follow us 
+                            <a href="#">@florist</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="ins-img col-lg-2-4">
+                    <img src="./img/insta-2.jpg" alt="insta-2">
+                    <div class="ins-img__hover">
+                        <i class="fa-brands fa-instagram"></i>
+                        <p>Follow us 
+                            <a href="#">@florist</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="ins-img col-lg-2-4">
+                    <img src="./img/insta-3.jpg" alt="insta-3">
+                    <div class="ins-img__hover">
+                        <i class="fa-brands fa-instagram"></i>
+                        <p>Follow us 
+                            <a href="#">@florist</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="ins-img col-lg-2-4">
+                    <img src="./img/insta-4.jpg" alt="insta-4">
+                    <div class="ins-img__hover">
+                        <i class="fa-brands fa-instagram"></i>
+                        <p>Follow us 
+                            <a href="#">@florist</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="ins-img col-lg-2-4">
+                    <img src="./img/insta-5.jpg" alt="insta-5">
+                    <div class="ins-img__hover">
+                        <i class="fa-brands fa-instagram"></i>
+                        <p>Follow us 
+                            <a href="#">@florist</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="social row">
+                <div class="social-logo col-xl-3 col-lg-3">
+                    <img src="./img/image.png" alt="logo">
+                </div>
+                <div class="social-text col-xl-7 col-lg-6">
+                    <p>The floristry business has a significant market in the corporate and social event world, as flowers</p>
+                </div>
+                <div class="social-icon col-xl-2 col-lg-3">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer row">
+                <div class="footer-item col-lg-2 col-sm-12">
+                    <div class="footer-title">
+                        Company
+                    </div>
+                    <div class="footer-desc">
+                        <a href="#">About us</a>
+                        <a href="#">Services</a>
+                        <a href="#">Contact us</a>
+                    </div>
+                </div>
+                <div class="footer-item col-lg-2 col-sm-12">
+                    <div class="footer-title">
+                        Account
+                    </div>
+                    <div class="footer-desc">
+                        <a href="#">My cart</a>
+                        <a href="#">Wishlist</a>
+                        <a href="#">Login/Register</a>
+                    </div>
+                </div>
+                <div class="footer-item col-lg-4 col-sm-12">
+                    <div class="footer-title">
+                        Newletter
+                    </div>  
+                    <div class="footer-desc">
+                        Subcribe to our newsletter to get more free tips. No Spam, Promise.
+                    </div>
+                    <div class="footer-mail">
+                        <input type="text" name="" id="footer-input" placeholder="Email">
+                        <button class="footer-btn">Subscribe</button>
+                    </div>
+                </div>
+                <div class="footer-item col-lg-4 col-sm-12">
+                    <div class="footer-title">
+                        Get in touch
+                    </div>
+                    <div class="footer-desc">
+                        <p>69 North Cleveland Street, Memphis,USA.</p>
+                        <p>(123) 8111 9210 - (012) 1111 6868</p>
+                        <p>Florisr@supportthem.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <div class="sidebar">
+            <div class="sidebar__row-1">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="sidebar__row-2">
+                <div class="sidebar__row-2-1">
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                    <span>(05)</span>
+                </div>
+                <div class="sidebar__row-2-2">
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <span>(01)</span>
+                </div>
+                <div class="menu-cart__price">$65.0</div>
+            </div>
+            <div class="sidebar__row-3">
+                <img src="./img/image.png" alt="logo">
+            </div>
+            <div class="sidebar__row-4"></div>
+        </div>
+    </div>
+
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
